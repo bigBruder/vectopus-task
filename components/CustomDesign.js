@@ -73,7 +73,9 @@ export const CustomDesign = () => {
                 Unique <span style={{fontWeight: 800}}>vector UI assets</span> created to fit your branding. For interfaces, ads, social networks, mobile apps, printing, and branding merchandise… stand out of the competition
               </span>
             </div>
-            <button style={{width: 350, height: 76, backgroundColor: '#00cbd0', borderRadius: 10, display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+            <button
+            className="bg-teal-400  hover:bg-teal-600"
+            style={{width: 350, height: 76, borderRadius: 10, display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
               <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                 <span
                 style={{
