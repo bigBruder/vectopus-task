@@ -1,7 +1,4 @@
 import "tailwindcss/tailwind.css";
-import { GoogleFonts } from "next-google-fonts";
-import { SideBlock } from "./SideBlock";
-import { useState } from "react";
 
 export const DreamIlustration = () => {
 
@@ -152,7 +149,8 @@ export const DreamIlustration = () => {
     <div  
       style={{width: '25%', height: 800, backgroundColor: '', right: 0, top: 0, position: "absolute", zIndex: 2, display: 'flex', flexDirection: 'column', justifyContent: 'space-evenly', alignItems: 'center'}}
     >
-      <button style={{width: 350, height: 68, backgroundColor: '#000000', borderRadius: 10, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+      <button className="bg-black  hover:bg-blue-700"
+      style={{width: 350, height: 68, borderRadius: 10, display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
         <div style={{display: 'flex'}}>
           <img class="inline-block" src="https://beta.vectopus.com/images/folder-download-icon.svg" />
           <span
@@ -168,7 +166,9 @@ export const DreamIlustration = () => {
           </span>
         </div>
       </button>
-      <button style={{width: 350, height: 68, backgroundColor: '#3c8cf3', borderRadius: 10, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+      <button
+      className="bg-blue-400  hover:bg-blue-700"
+       style={{width: 350, height: 68, borderRadius: 10, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <div style={{display: 'flex'}}>
           <img class="inline-block" src="https://beta.vectopus.com/images/open-lock-unlocked-icon.svg" />
           <span
@@ -285,7 +285,9 @@ export const DreamIlustration = () => {
           fontSize: 14,
           fontStyle: 'italic'
         }}>Lighting fast and made from scratch.</span>
-        <button style={{width: '100%', height: 68, backgroundColor: '#ffd00f', borderRadius: 10, display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: 15 }}>
+        <button 
+        className="bg-yellow-400 hover:bg-yellow-700"
+        style={{width: '100%', height: 68, borderRadius: 10, display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: 15 }}>
         <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
           <span
           style={{

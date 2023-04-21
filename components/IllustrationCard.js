@@ -1,7 +1,6 @@
 import { illustrationList } from "@/pages/api/hello"
 
 export const IllustartionCard = ({item, index}) => {
-  console.log('IllustrationList===>', illustrationList)
   return (
     <div style={{
       height: 555,

@@ -48,7 +48,9 @@ export const SearchIcons = () => {
       </ToggleSwitch>
       </div>
       </div>
-        <button style={{width: 350, height: 68, backgroundColor: '#000000', borderRadius: 10, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+        <button 
+        className="bg-black  hover:bg-blue-700"
+        style={{width: 350, height: 68, borderRadius: 10, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <div style={{display: 'flex'}}>
           <img class="inline-block" src="https://beta.vectopus.com/images/folder-download-icon.svg" />
           <span
